@@ -1,4 +1,8 @@
 numpy
 pandas
 seaborn
--e .
+matplotlib
+scikit-learn
+catboost
+xgboost
+#-e .  #Should not run every time bcz we dont want to create package every time we run pip install - requirements.txt
