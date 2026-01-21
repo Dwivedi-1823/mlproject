@@ -14,7 +14,7 @@ class PredictPipeline:
     def predict(self,features):
         try:
             model_path=os.path.join("artifacts","model.pkl")
-            preprocessor_path=os.path.join('artifacts','proprocessor.pkl')
+            preprocessor_path=os.path.join('artifacts','preprocessor.pkl')
             
             logging.info("Model_path and preprocessor_path fetched and assigned to model and preprocessor to load_object")
             print("Before Loading")
